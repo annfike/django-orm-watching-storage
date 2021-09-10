@@ -6,7 +6,9 @@ Python3 должен быть уже установлен.
 
 ## Зависимости
 Затем используйте `pip` (или `pip3`, есть конфликт с Python2) для установки зависимостей:  
-`pip install -r requirements.txt`  
+```python
+pip install -r requirements.txt
+```
 
 ## Переменные окружения
 Запросите доступ к БД у менеджера вашего банка.   
@@ -20,7 +22,9 @@ Python3 должен быть уже установлен.
 
 ## Запуск
 Запустите сайт на локальном сервере (localhost) командой `python manage.py runserver` (или `python3 manage.py runserver`, если есть конфликт с Python2):  
-`python manage.py runserver 0.0.0.0:8000`  
+```python
+python manage.py runserver 0.0.0.0:8000
+```
 Доступ к сайту осуществляется по ссылке http://localhost:8000
  
 ## Цель проекта
